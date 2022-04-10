@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770782858243",
+    "project_id": "todolist-caafc",
+    "storage_bucket": "todolist-caafc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770782858243:android:ca2533fb389e5255fd9236",
+        "android_client_info": {
+          "package_name": "com.andrewspourgeon.todolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770782858243-fh77oin82f4sjq2r9n3o3hd3v4770rqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1DdbZKdb1KjM9ua3ApSHzQR4FPc56Y2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770782858243-fh77oin82f4sjq2r9n3o3hd3v4770rqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
