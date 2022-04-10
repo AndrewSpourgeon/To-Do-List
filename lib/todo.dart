@@ -109,7 +109,7 @@ class _TodoListAppState extends State<TodoListApp> {
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(18.0),
                             ),
-                            hintText: 'Main heading !',
+                            hintText: 'To-Do Title',
                           ),
                           style: const TextStyle(
                             fontFamily: 'Sf',
@@ -127,7 +127,7 @@ class _TodoListAppState extends State<TodoListApp> {
                           decoration: InputDecoration(
                             // contentPadding: const EdgeInsets.symmetric(vertical: 20.0),
                             prefixIcon: const Icon(
-                              Icons.timeline,
+                              Icons.person,
                               size: 30,
                               color: Colors.blue,
                             ),
@@ -141,7 +141,7 @@ class _TodoListAppState extends State<TodoListApp> {
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(12.0),
                             ),
-                            hintText: 'Deadline !',
+                            hintText: 'Author :',
                           ),
                           style: const TextStyle(
                             fontFamily: 'Mon',
@@ -352,9 +352,9 @@ class _TodoListAppState extends State<TodoListApp> {
                                       width: 10,
                                     ),
                                     const Icon(
-                                      Icons.timer,
+                                      Icons.star,
                                       size: 20,
-                                      color: Colors.blue,
+                                      color: Colors.yellow,
                                     ),
                                   ],
                                 ),
